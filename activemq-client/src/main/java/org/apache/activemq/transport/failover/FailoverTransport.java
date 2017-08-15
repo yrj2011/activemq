@@ -1090,7 +1090,6 @@ public class FailoverTransport implements CompositeTransport {
                         }
                     }
                 }
-
                 propagateFailureToExceptionListener(connectionFailure);
                 return false;
             }
