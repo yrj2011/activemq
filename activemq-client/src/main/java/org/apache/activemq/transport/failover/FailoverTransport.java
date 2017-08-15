@@ -1101,6 +1101,7 @@ public class FailoverTransport implements CompositeTransport {
             }
         }
 
+        
         if (!disposed) {
             doDelay();
         }
